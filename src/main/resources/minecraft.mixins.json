@@ -1,12 +1,11 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "one.oktw.infinity.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-  ],
-  "client": [
-    "ExampleMixin"
+    "Command_GameMode",
+    "ItemEntity_FastRemove"
   ],
   "injectors": {
     "defaultRequire": 1
